@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    top: 30%;
+    left: 50%;
+    background-image: url("https://cdn.rri.co.id/berita/51/1674466788-1D906491-A9BB-4A73-AE22-FA0813994683.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+
+main {
+    width: 960px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: #fff;
+    
+}
+
+main .container {
+    /* padding: 1rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+main .container .head{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    background-color:#D4DAF9;
+    height: 120px;
+    tab-size: 4px;
+}
+main .container .head h3,p{
+    margin-left: 3%;
+    margin-top: 13px;
+    
+}
+
+
+main .container .container-form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    /* background-color: red; */
+}
+main .container .container-form form .isi{
+     display: flex;
+     flex:1;   
+    /* background-color: yellow; */
+}
+
+main .container .container-form form .form-satu{
+    padding: 1rem;
+    display: flex;
+    flex: 1;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: green; */
+}
+ 
+main .container .container-form form .logo img{
+    justify-content: left;
+    width: 80px;
+    margin-top: -35px;
+    margin-left: 25px;
+    border-radius: 190px;
+    /* box-shadow:  rgb(255, 255, 255) 0px 2px 16px 0px; */
+    border: 2px solid #ffffff;
+}
+
+.form-group{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start baseline;
+    /* background-color: blueviolet; */
+}
+.form-group label{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-group input{
+    /* padding: 10px; */
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(179, 179, 179);
+    font-size: 1rem;
+    transition: border .2s ease-in-out;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+/* .form-group ::placeholder{
+    left: 10px;
+    font-size: 1rem;
+} */
+main .container .container-form input[type=file]::file-selector-button {
+    /* margin-right: 20px; */
+    border: none;
+    background: #084cdf;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: -10px;
+    /* border-radius: 10px; */
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+
+main .container .container-form form .form-satu .gelombang{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+
+main .container .container-form form .form-satu .gelombang .form-group{
+    width: 200px;
+    
+}
+main .container .container-form form .form-satu .gelombang .form-group input{
+   background-color: #e9e8e8;
+}
+
+main .container .container-form form .form-satu .gelombang .form-group select{
+    height: 40px;
+    background-color:  #e9e8e8;
+    border-radius: 5px;
+}
+
+main .container .container-form form .form-dua{
+    padding: 1rem;
+    flex: 1 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: pink; */
+}
+main .container .container-form form .form-dua .coba {
+    margin-bottom: 80px;
+}
+main .container .container-form form .form-dua .mt {
+    margin-top: 8px;
+}
+
+
+main .container .container-form form .form-dua .form-group select{
+    height: 40px;
+    background-color: #e9e8e8; 
+    border-radius: 5px;
+}
+
+
+main .container .container-form form .button{
+    padding: 20px;
+    padding-bottom: 1px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .container-form form .button input{
+    width: 100%;
+    height: 40px;
+    background-color: #485EC4;
+    color: white;
+    padding: 10px 1px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    opacity: 0.9;
+    text-align: center;
+    justify-self: center;   
+    border-radius: 5px;
+}
+
+main .footer {
+    padding: 20px;
+    width: 95%;
+    background-color: rgb(247, 121, 236);
+    border: 3px solid rgb(245, 62, 132);
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+main .container .container-form .login {
+    padding: 8px;
+    text-align: center;
+    justify-self: center;  
+}
+main .container .container-form .login a {
+    text-decoration: none;
+    color: #084cdf;
+}
+
+main .footer .keterangan h3,ul {
+    margin-left: 3%;
+    
+}
